@@ -5,7 +5,7 @@ import './Detail.css'
 const Detail = ({ children }) => {
     return (
         <div className="detail-container">
-            <video src="/videos/history.m4v" autoPlay loop muted />
+            {/* <video src="/videos/history.m4v" autoPlay loop muted /> */}
             <h1>{children}</h1>
             <div className="hero-btns">
                 <Button
